@@ -1,0 +1,51 @@
+[
+  
+  {
+    "TestCase:": "LC 01: ",
+    "description": "Valid login",
+    "email": "env.BASE_EMAIL",
+    "password": "env.PASSWORD",
+    "valid": true
+  },
+
+  {
+    
+    "TestCase:": "LC 02: ",
+    "description": "Empty form submission",
+    "email": "",
+    "password": "",
+    "valid": false,
+    "emailError": "Email address is required",
+    "passwordError": "Password is required"
+  },
+  {
+    
+    "TestCase:": "LC 03: ",
+    "description": "Invalid email format",
+    "email": "abc.com",
+    "password": "SomePassword123",
+    "valid": false,
+    "emailError": "Please enter a valid email address."
+  },
+  {
+    
+    "TestCase:": "LC 04: ",
+    "description": "Wrong password",
+    "email": "env.BASE_EMAIL",
+    "password": "WrongPassword123",
+    "valid": false,
+    "loginError": "Email or password is wrong"
+  },
+  {
+    
+    "TestCase": "LC 05: ",
+    "description": "Non-existing user",
+    "email": "nonexistinguser+1234@gmail.com",
+    "password": "SomePass123",
+    "valid": false,
+    "loginError": "Email or password is wrong"
+  }
+
+
+ 
+]
