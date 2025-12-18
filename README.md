@@ -8,7 +8,7 @@ A comprehensive end-to-end test automation framework built with Playwright for t
 - **Design Pattern**: Page Object Model (POM)
 - **Language**: JavaScript
 - **Testing Approach**: Data-driven testing
-- **Cross-browser Support**: Chromium, Firefox, WebKit, Mobile Chrome, Mobile Safari
+- **Cross-browser Support**: Chromium, Firefox, WebKit, Mobile Chrome
 
 ## 📁 Project Structure
 
